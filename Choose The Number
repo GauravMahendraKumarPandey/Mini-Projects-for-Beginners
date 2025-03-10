@@ -1,0 +1,18 @@
+import random
+
+num = random.randint(1,100)
+a = None
+
+while a != num:
+    a = int(input('Choose a Number Between 1 and 100: '))
+    
+    if a > num:
+        print('Selected Number is too High')
+    elif a<num:
+        print('Selected Number is too Low')
+    elif a == num:
+        print ('Congratulation!!! You have Selected the Right Number!')
+    else:
+        print('Invalid Input')
+        
+    
